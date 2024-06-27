@@ -1,30 +1,46 @@
-plugins {
+plugins 
+{
 	id 'fabric-loom' version '1.7-SNAPSHOT'
 	id 'maven-publish'
-}
+}// End Plugins
 
 version = project.mod_version
 group = project.maven_group
 
-base {
+base 
+{
 	archivesName = project.archives_base_name
-}
+}// End Base
 
-repositories {
-	maven {
+repositories 
+{
+	maven 
+	{
         name = 'GeckoLib'
         url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
-        content {
+        content 
+	{
                 includeGroupByRegex("software\\.bernie.*")
                 includeGroup("com.eliotlash.mclib")
         }
-}
+	}
 
-dependencies {
+    	maven 
+	{
+        name = 'BlameJared Maven (CrT / Bookshelf)'
+        url = 'https://maven.blamejared.com'
+    	}
+
+dependencies 
+{
         modImplementation("software.bernie.geckolib:geckolib-fabric-${minecraft_version}:${geckolib_version}")
         implementation("com.eliotlash.mclib:mclib:20")
-}
-}
+	modImplementation("foundry.veil:Veil-fabric-${project.minecraft_version}:${project.veil_version}") 
+	{
+        exclude group: "maven.modrinth"
+    	}
+}// End Repositories
+}// End Dependencies
 
 loom {
 	splitEnvironmentSourceSets()
@@ -38,7 +54,8 @@ loom {
 
 }
 
-fabricApi {
+fabricApi 
+{
 	configureDataGeneration()
 }
 
