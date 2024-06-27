@@ -28,7 +28,7 @@ public class ModItems
         Submerged.LOGGER.info("Registering Mod items for " + Submerged.MOD_ID);
 
         //just dupe this to add items to diff groups (In combat tab as a placeholder)
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addItemsToCombatItemGroup);
+        //ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addItemsToCombatItemGroup);
     }
 
 } //end class
