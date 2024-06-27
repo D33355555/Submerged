@@ -5,6 +5,6 @@ A mysterious force that goes by the names of Tako has arised and the Housekeeper
 # Will you stand up to the challenge?
 
 # Libraries
-[GeckoLib](https://www.curseforge.com/minecraft/mc-mods/geckolib)
-[Veil](https://modrinth.com/project/veil)
+[GeckoLib](https://www.curseforge.com/minecraft/mc-mods/geckolib) <br>
+[Veil](https://modrinth.com/project/veil) <br>
 [Blabber](https://ladysnake.org/wiki/blabber/) (Embedded)
