@@ -5,11 +5,14 @@
 	"name": "Submerged",
 	"description": "Will you stand up to the challenge?",
 	"authors": [
-		"D33355555"
+		"D33355555",
+		"soooysaws",
+		"HexDawn"
 	],
 	"contact": {
 		"homepage": "https://github.com/D33355555/Submerged",
-		"sources": "https://github.com/D33355555/Submerged/issues"
+		"sources": "https://github.com/D33355555/Submerged",
+		"issues": "https://github.com/D33355555/Submerged/issues"
 	},
 	"license": "LGPL-3.0",
 	"icon": "assets/submerged/icon.png",
