@@ -19,12 +19,6 @@ public class ModItems
     //register kraken tooth item
     public static final Item KRAKEN_TOOTH = registerItem("kraken_tooth", new Item(new FabricItemSettings()));
 
-
-    //Adding Kraken Tooth to the Ingredient item group
-    private static void addItemsToCombatItemGroup(FabricItemGroupEntries entries) {
-        entries.add(KRAKEN_TOOTH);
-    }
-
     //Register item method
     private static Item registerItem(String szName, Item item){
         return Registry.register(Registries.ITEM, new Identifier(Submerged.MOD_ID, "kraken_tooth"), item);
