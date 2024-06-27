@@ -1,6 +1,0 @@
-{
-  "parent": "item/generatesd",
-  "textures": {
-    "layer0": "submerged:item/kraken_tooth"
-  }
-}
