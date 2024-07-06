@@ -1,3 +1,13 @@
 {
-  "type": "minecraft:overworld"
+  "type": "minecraft:overworld",
+  "generator": {
+    "settings": {
+      "structures": {
+        "structures": {}
+      },
+      "layers": [],
+      "biome": "minecraft:plains"
+    },
+    "type": "minecraft:flat"
+  }
 }
